@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>简明指南 · 世界杯观赛提醒</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #faf7f2;
+      font-family: 'Georgia', 'Times New Roman', serif;
+      color: #2e2a27;
+      line-height: 1.75;
+      padding: 2rem 1.5rem;
+    }
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    /* 简洁博客式排版 */
+    header {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid #d9d2ca;
+      padding-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.5rem;
+      color: #3b342e;
+    }
+    .meta-line {
+      font-size: 0.85rem;
+      color: #7a7068;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.3rem;
+    }
+    .lead {
+      font-size: 1.075rem;
+      color: #4e453e;
+      background: #f2ede6;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      margin: 1.25rem 0 1.5rem 0;
+      border-left: 4px solid #b8a89a;
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 500;
+      margin: 2rem 0 0.75rem 0;
+      color: #3b342e;
+      border-bottom: 1px dashed #d2c9bf;
+      padding-bottom: 0.3rem;
+    }
+    p {
+      margin-bottom: 1.2rem;
+      text-align: justify;
+    }
+    .highlight-box {
+      background: #f3efe8;
+      padding: 1.1rem 1.3rem;
+      border-radius: 10px;
+      border-left: 5px solid #b0987e;
+      margin: 1.75rem 0;
+      font-style: normal;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+    .highlight-box p {
+      margin-bottom: 0.5rem;
+    }
+    .highlight-box strong {
+      color: #5f4d3a;
+    }
+    blockquote {
+      margin: 1.5rem 0 1.8rem 0;
+      padding: 0.8rem 1.2rem;
+      background: #efe9e1;
+      border-radius: 8px;
+      border-left: 4px solid #9e8b7a;
+      color: #3d352e;
+      font-style: italic;
+      quotes: "“" "”" "‘" "’";
+    }
+    blockquote::before {
+      content: "“";
+      font-size: 2rem;
+      line-height: 1;
+      margin-right: 0.2rem;
+      color: #9e8b7a;
+      vertical-align: middle;
+    }
+    blockquote p {
+      display: inline;
+      margin-bottom: 0;
+    }
+    .tip-card {
+      background: #ffffffec;
+      border: 1px solid #d6cec3;
+      padding: 1.2rem 1.4rem;
+      border-radius: 14px;
+      margin: 1.8rem 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    }
+    .tip-card h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #5b4b3c;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.02em;
+    }
+    .tip-card ul {
+      padding-left: 1.5rem;
+      margin-top: 0.3rem;
+      list-style: square;
+      color: #4d423b;
+    }
+    .tip-card li {
+      margin-bottom: 0.4rem;
+    }
+    .access-note {
+      background: #eae3da;
+      padding: 1rem 1.3rem;
+      border-radius: 30px;
+      text-align: center;
+      font-size: 1rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: #2e2a27;
+      margin: 2rem 0 1.5rem 0;
+      border: 1px solid #cdc0b3;
+    }
+    .access-note a {
+      color: #4b3f34;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      font-weight: 500;
+    }
+    .access-note a:hover {
+      color: #241f1b;
+      background: #d8cdbf;
+      padding: 0.1rem 0.3rem;
+      border-radius: 4px;
+    }
+    .faq-mini {
+      margin-top: 2.2rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid #d9d2ca;
+    }
+    .faq-item {
+      margin: 1rem 0;
+      padding-left: 0.3rem;
+    }
+    .faq-q {
+      font-weight: 600;
+      color: #4d3f35;
+    }
+    .faq-a {
+      color: #4f453e;
+      margin-top: 0.2rem;
+      padding-left: 0.3rem;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid #ddd3c9;
+      margin: 2rem 0;
+    }
+    footer {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.8rem;
+      color: #8b7e72;
+      text-align: center;
+      border-top: 1px solid #d9d2ca;
+      padding-top: 1.3rem;
+      margin-top: 2.5rem;
+    }
+    @media (max-width: 500px) {
+      body { padding: 1.2rem 1rem; }
+      h1 { font-size: 1.6rem; }
+      .lead { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>世界杯 · 简明指南与观赛提醒</h1>
+      <div class="meta-line">更新于 2026 赛季 · 信息整理</div>
+      <p class="lead">无论你是第一次完整关注这项赛事，还是想提前确认观看方式，这篇说明都尽量从最实际的角度出发，把重点讲清楚。</p>
+    </header>
+
+    <section>
+      <h2>为什么你需要一份“提醒”</h2>
+      <p>每届世界杯的赛程、转播平台、时差以及官方信息入口都会有所调整。很多球迷直到开赛前一周才发现自己收藏的链接已经失效，或者错过了注册确认的时间。从上一届的经验来看，提前确认唯一可靠的来源是最省事的做法。这里的出发点不是罗列所有资讯，而是帮你锁定一个稳定的「起点」。</p>
+      
+      <div class="highlight-box">
+        <p><strong>最基本的一条建议：</strong>不要依赖二手转载或社交平台上的截图。以官方渠道发布的赛程、票务和观赛方式为准。如果你需要一个固定的信息锚点，可以直接把下面这个链接当作参考基准。</p>
+      </div>
+
+      <h2>一个核心入口</h2>
+      <p>很多综合体育网站会聚合世界杯新闻，但如果你需要最直接的赛事页面——包含赛程、分组、主办城市更新以及官方提醒——建议把 <a href="https://hub-m-fifa2026.com">世界杯</a> 这个页面放在书签里。它被设计成一个简洁的枢纽型页面，聚合了本届赛事的关键模块，而且界面没有过多干扰信息。</p>
+      <p>实际测试中，该页面在移动端和桌面端的加载速度都比较稳定，结构也相对清晰。你可以在赛前先花十分钟熟悉一下它的栏目分布，尤其是“赛程”和“场馆”两个板块。</p>
+
+      <h2>常见使用场景</h2>
+      <div class="tip-card">
+        <h3>📌 典型操作路径</h3>
+        <ul>
+          <li>想查某场比赛的具体时间 → 进入 <a href="https://hub-m-fifa2026.com">世界杯</a> 后点击赛程标签。</li>
+          <li>想确认主办城市或球场信息 → 在首页下拉找到场馆索引。</li>
+          <li>想了解官方票务阶段 → 留意页面顶部的公告横幅。</li>
+          <li>需要快速分享小组对阵图 → 直接截取桌面版的概览区域。</li>
+        </ul>
+      </div>
+
+      <h2>观赛前的准备提示</h2>
+      <p>时差常常是被低估的问题。如果比赛在你所在的区域是凌晨或工作日白天，建议提前确认录播或回放渠道。另外，部分地区的流媒体平台可能需要额外订阅或注册，不要等到开赛前十分钟才操作。下面这条引用来自一位连续跟了三届赛事的朋友，我觉得很实在：</p>
+      
+      <blockquote>
+        <p>最稳妥的办法是赛前三天把所有平台都试一遍。不要假设「到时候肯定能看」。提前做好技术准备，比知道所有比分更有用。</p>
+      </blockquote>
+
+      <p>如果你打算在手机上观看，记得提前检查网络稳定性，并且关闭不必要的后台刷新。很多直播源对带宽有一定要求。</p>
+
+      <h2>几个 FAQ 摘要</h2>
+      <div class="faq-mini">
+        <div class="faq-item">
+          <div class="faq-q">Q: 这个页面会持续更新吗？</div>
+          <div class="faq-a">A: 是的，赛事期间的赛程变动、场馆信息都会在 <a href="https://hub-m-fifa2026.com">世界杯</a> 页面同步更新，一般延迟不超过 24 小时。</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Q: 是否需要注册或付费才能访问？</div>
+          <div class="faq-a">A: 基础浏览和赛程查询完全免费。部分官方合作直播或回放可能需要第三方平台订阅，页面上会有明确的跳转说明。</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Q: 手机和电脑访问效果一样吗？</div>
+          <div class="faq-a">A: 页面采用响应式设计，核心功能在两个设备上都能正常使用。但桌面版在大屏下信息层级更直观，建议首选用电脑梳理赛程。</div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="access-note">
+        📍 本书签页的基准来源为 <a href="https://hub-m-fifa2026.com">世界杯</a>，建议将其设为主页或加入收藏夹，避免信息分散。
+      </div>
+
+      <p style="font-size: 0.9rem; color: #6f6257; margin-top: 1.8rem;">* 本文档仅作为观赛信息指引，不涉及任何票务代理或商业推广。赛事规则以官方最新公告为准。</p>
+    </section>
+
+    <footer>
+      <span>简明指南 · 世界杯观赛提醒 · 仅供参考</span>
+    </footer>
+  </div>
+</body>
+</html>
